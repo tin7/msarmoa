@@ -17,21 +17,21 @@ repository               : ""
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Martin Sebastian Armoa"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "PhD Student"
   pronouns         : # example: "she/her"
-  location         : "Location"
-  orcid            : "http://orcid.org/yourorcidurl"
+  location         : "Instituto de Fisica Rosario"
+  orcid            : ""
   employer         :
   email            :  
   uri              :
 
   # Manuscript repositories
   arxiv            : # "https://arxiv.org/" # Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"         # Update with the correct link to your profile
+  googlescholar    : ""         # Update with the correct link to your profile
   impactstory      : # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : ""
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
 
   # Social media
