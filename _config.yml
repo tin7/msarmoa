@@ -7,7 +7,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Martin S Armoa"
+title                    : "Martin Armoa"
 title_separator          : "-"
 name                     : &name "Martin"
 description              : &description "personal description"
