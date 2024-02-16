@@ -5,66 +5,15 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-# Basic Site Settings
-locale                   : "en-US"
-title                    : "Martin Sebastian Armoa"
-title_separator          : "-"
-name                     : &name "Martin Seastian Armoa"
-description              : &description "PhD Student"
-url                      : https://github.com/tin7 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : ""
-
-# Site Author
-author:
-  name             : "Martin Sebastian Armoa"
-  avatar           : "profile.png"
-  bio              : "PhD Student"
-  pronouns         : # example: "she/her"
-  location         : "Instituto de Fisica Rosario"
-  orcid            : ""
-  employer         :
-  email            :  
-  uri              :
-
-  # Manuscript repositories
-  arxiv            : # "https://arxiv.org/" # Update with the correct link to your profile
-  googlescholar    : ""         # Update with the correct link to your profile
-  impactstory      : # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  pubmed           : ""
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-
-  # Social media
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  facebook         :
-  flickr           :
-  foursquare       :
-  github           : "academicpages"
-  goodreads        :
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         :
-  kaggle           : # "kaggleusername"
-  mastodon         : "mastodonhandle"
-  medium           : # "add medium profile url here"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : "replacethistwitterhandle"
-  vine             :
-  weibo            :
-  wikipedia        :
-  xing             :
-  youtube          :
-
-
 # Site Settings
+locale                   : "en-US"
+title                    : "Martin S Armoa"
+title_separator          : "-"
+name                     : &name "Martin Sebastian Armoa"
+description              : &description "PhD Student"
+url                      : https://msarmoa.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "tin7/msarmoa.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -100,17 +49,15 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
-
 # SEO Related
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
-
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &ngaggion
 facebook:
   username               :
   app_id                 :
@@ -126,9 +73,48 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
+
+
+# Site Author
+author:
+  name             : "Martin Sebastian Armoa"
+  avatar           : "profile.png"
+  bio              : "PhD Student"
+  location         : "https://goo.gl/maps/b7Uzv1mFRbVXxDqr5"
+  employer         : 
+  pubmed           : 
+  googlescholar    : "https://scholar.google.com/citations?user=CnwAbLMAAAAJ&hl=es"
+  email            : "ngaggion@sinc.unl.edu.ar"
+  researchgate     : "https://www.researchgate.net/profile/Nicolas-Gaggion"
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "ngaggion"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm           :
+  linkedin         : "ngaggion/"
+  orcid            : "https://orcid.org/0000-0002-6684-5300"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          : "ngaggion"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
 
 
 # Reading Files
@@ -160,7 +146,6 @@ exclude:
   - package.json
   - tmp
   - vendor
-keep_files:
   - .git
   - .svn
 encoding: "utf-8"
@@ -193,9 +178,6 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -241,15 +223,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
   # _talks
   - scope:
       path: ""
@@ -258,7 +231,6 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
 
 # Sass/SCSS
 sass:
@@ -280,6 +252,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-include-cache
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
