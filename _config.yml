@@ -24,14 +24,14 @@ author:
   name             : "Martin S. Armoa"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student - Teaching assistant in Numerical Method"
-  location         : "https://maps.app.goo.gl/uh62hon3Aa7C98yH6"
+  location         : "Rosario, Santa Fe - Argentina"
   employer         : "Universidad Nacional de Rosario"
   uri              : # URL
   email            : "armoa58@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
   orcid            : # "http://orcid.org/yourorcidurl"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -41,7 +41,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/tin7"
+  github           : "tin7"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -55,7 +55,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "www.linkedin.com/in/msarmoa" # Username
+  linkedin         : "msarmoa" # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
